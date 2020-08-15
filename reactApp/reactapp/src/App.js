@@ -14,6 +14,7 @@ import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
+import Form from './components/Form';
 
 
 class App extends Component{
@@ -41,7 +42,8 @@ class App extends Component{
        {/* <UserGreeting></UserGreeting> */}
        {/* <NameList></NameList> */}
        {/* <Stylesheet prim={false}></Stylesheet> */}
-       <Inline></Inline>
+       {/* <Inline></Inline> */}
+       <Form></Form>
       </div>
     );
   }
