@@ -10,6 +10,8 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
 
 
 class App extends Component{
@@ -33,10 +35,14 @@ class App extends Component{
 
        {/* <ParentComponent /> */}
        {/* <UserGreeting></UserGreeting> */}
-       <NameList></NameList>
+       {/* <NameList></NameList> */}
+       {/* <Stylesheet prim={false}></Stylesheet> */}
+       <Inline></Inline>
       </div>
     );
   }
 }
 
 export default App;
+
+

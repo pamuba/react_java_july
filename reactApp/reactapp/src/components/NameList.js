@@ -15,7 +15,7 @@ function NameList() {
         {
             id:1,
             name:'Bruce',
-            age:50,
+            age:30,
             skill:'React'
         },
         {
@@ -31,8 +31,8 @@ function NameList() {
             skill:'Mongo'
         }
     ]
-    const personList = persons.map(person => (
-        <Person person={person}></Person>
+    const personList = persons.map((person, index) => (
+        <Person key={index} person={person}></Person>
     ))
      
     return <div>{personList}</div>
