@@ -15,6 +15,8 @@ import Inline from './components/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './components/Form';
+import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
 
 
 class App extends Component{
@@ -43,7 +45,9 @@ class App extends Component{
        {/* <NameList></NameList> */}
        {/* <Stylesheet prim={false}></Stylesheet> */}
        {/* <Inline></Inline> */}
-       <Form></Form>
+       {/* <Form></Form> */}
+       {/* <LifeCycleA></LifeCycleA> */}
+       <FragmentDemo></FragmentDemo>
       </div>
     );
   }
