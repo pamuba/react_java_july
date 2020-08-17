@@ -17,6 +17,8 @@ import styles from './appStyles.module.css';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
+import PureComponent from './components/PureComp';
+import ParentComponents from './components/ParentComponents'
 
 
 class App extends Component{
@@ -47,7 +49,9 @@ class App extends Component{
        {/* <Inline></Inline> */}
        {/* <Form></Form> */}
        {/* <LifeCycleA></LifeCycleA> */}
-       <FragmentDemo></FragmentDemo>
+       {/* <FragmentDemo></FragmentDemo> */}
+
+       <ParentComponents></ParentComponents>
       </div>
     );
   }
