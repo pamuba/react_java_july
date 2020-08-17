@@ -19,6 +19,8 @@ import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import PureComponent from './components/PureComp';
 import ParentComponents from './components/ParentComponents'
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 
 class App extends Component{
@@ -51,7 +53,9 @@ class App extends Component{
        {/* <LifeCycleA></LifeCycleA> */}
        {/* <FragmentDemo></FragmentDemo> */}
 
-       <ParentComponents></ParentComponents>
+       {/* <ParentComponents></ParentComponents> */}
+       <ClickCounter></ClickCounter>
+       <HoverCounter></HoverCounter>
       </div>
     );
   }
