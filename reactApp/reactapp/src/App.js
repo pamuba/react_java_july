@@ -27,6 +27,11 @@ import MemoCom from './components/MemoCom';
 import FRParentInput from './components/FRParentInput';
 import ClickCounter1 from './components/ClickCounter1';
 import HoverCounter1 from './components/HoverCounter1';
+import LifeCycleA1 from './components/LifeCycleA1'
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
+import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
 
 
 class App extends Component{
@@ -68,8 +73,17 @@ class App extends Component{
        {/* <ParentComponents></ParentComponents> */}
 
        {/* <ParentComp></ParentComp> */}
-       <ClickCounter1></ClickCounter1>
-       <HoverCounter1></HoverCounter1>
+       {/* <ClickCounter1></ClickCounter1>
+       <HoverCounter1></HoverCounter1> */}
+       {/* <LifeCycleA1></LifeCycleA1> */}
+
+       {/* <UserProvider value="Hello World">
+        <ComponentC />
+       </UserProvider> */}
+
+       {/* <HookCounter></HookCounter> */}
+       <HookCounterTwo></HookCounterTwo>
+       
       </div>
     );
   }
